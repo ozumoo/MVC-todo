@@ -1,12 +1,4 @@
-<html>
-	<head>
-		<title>Todo</title>
-		<link rel="stylesheet" href="/public/css/style.css">
-	</head>
-	<body>	
-
-		<?php require 'views/partials/nav.php'; ?>
-
+<?php require 'views/partials/head.php'; ?> 
 		<h1>Tasks</h1>
 
 		<ul>
@@ -20,5 +12,5 @@
 				</li>
 		    <?php endforeach; ?> 
 		</ul>
-	</body>
-</html>
+<?php require 'views/partials/footer.php'; ?> 
+

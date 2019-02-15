@@ -1,10 +1,3 @@
-<html>
-	<head>
-		<title>Todo</title>
-	</head>
-		<?php require 'views/partials/nav.php'; ?>
-	
-	<body>
+<?php require 'views/partials/head.php'; ?>
 		<h1>Hey in about culture </h1>
-	</body>
-</html>
+<?php require 'views/partials/footer.php'; ?>
