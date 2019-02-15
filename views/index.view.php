@@ -1,8 +1,14 @@
 <html>
 	<head>
 		<title>Todo</title>
+		<link rel="stylesheet" href="/public/css/style.css">
 	</head>
-	<body>
+	<body>	
+
+		<?php require 'views/partials/nav.php'; ?>
+
+		<h1>Tasks</h1>
+
 		<ul>
 			<?php foreach ($tasks as $task) : ?> 
 				<li>
