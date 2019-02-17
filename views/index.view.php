@@ -1,5 +1,9 @@
 <?php require 'views/partials/head.php'; ?> 
 
+<?php foreach ($users as $user) : ?>
+	<li><?= $user->name; ?> </li>
+<?php endforeach; ?>
+
 <h1>Submit Your Name</h1>
 
 <form action="names" method="POST">

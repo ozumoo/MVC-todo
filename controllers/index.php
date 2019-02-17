@@ -1,7 +1,7 @@
 <?php 
 
 
-$tasks = $app['database']->selectAll('todo' , 'Task');
+$users = $app['database']->selectAll('users');
 
 
 require 'views/index.view.php';
